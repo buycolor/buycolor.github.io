@@ -53,30 +53,43 @@ body {
         background: yellow;
     }
 }
-#value-props {
-    max-height: 720px;
-    // overflow: hidden;
+  #value-props {
+      max-height: 720px;
+      // overflow: hidden;
+        .container-fluid {
+          // background: red;
+          max-width: 1300px;
+        }
+        .left-section {
+          position: relative;
+          padding: 0;
+          h2 {
+            position: absolute;
+            left: 30px;
+            text-transform: uppercase;
+            color: white;
+            font-size: 35px;
+            width: 200px;
+          }
+        }
+        .right-section {
+          padding: 0;
 
-    h2 {
-        position: absolute;
-    }
-    .right-section {
-      h2 {
-        // background: black;
-        // top: 20px;
-        bottom: 50px;
-        font-size: 60px;
-        font-weight: bold;
-      }
-    }
+          h2 {
+            position: absolute;
+            color: #fff;
+            bottom: 20px;
+            font-size: 60px;
+            font-weight: bold;
+          }
+        }
     .col-sm-4,
     .col-sm-8 {
         padding: 30px 0;
-        // padding: 20px 0;
     }
     #img-a {
         // max-height: 350px;
-        max-width: 80%;
+        max-width: 100%;
         padding-left: 0;
         margin-left: 0;
         // position: absolute;
@@ -93,11 +106,11 @@ body {
         z-index: 90;
     }
     #img-b {
-        height: auto;
-        max-width: 100%;
-        padding: 0;
-        background-repeat: no-repeat;
-        background-position: center;
+      min-height:542px;
+      max-width: 100%;
+      padding: 0;
+      background-repeat: no-repeat;
+      background-position: center;
     }
 }
 #shop {
@@ -119,37 +132,37 @@ body {
     .ion-ios-arrow-right {
       background: blue;
     }
-    #product-views-carousel {
-        position: absolute;
-        height: auto;
-        bottom: 0;
-        z-index: 10;
-        width: 100%;
-        height: 100%;
+  #product-views-carousel {
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
 
-        .carousel-inner {
-          position: relative;
-          .item.active {
-              img {
-                // height: 120px;
-                // position: absolute;
-                // bottom:0;
-                // width: 120px;
-              }
-            }
+    .carousel-inner {
+      position: relative;
+      .item.active {
+        img {
+          // height: 120px;
+          // position: absolute;
+          // bottom:0;
+          // width: 120px;
         }
-
-        .carousel-controller-row {
-            background: red;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
-            height: 120px;
-            z-index: 20;
-        }
-        .carousel-indicators {
-          // background: blue;
-          z-index: 30;
-        }
+      }
     }
+
+    .carousel-controller-row {
+        background: red;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 120px;
+        z-index: 20;
+    }
+    .carousel-indicators {
+      // background: blue;
+      z-index: 30;
+    }
+  }
 }
