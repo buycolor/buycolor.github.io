@@ -1,0 +1,109 @@
+body {
+  width: 100%; }
+
+#hero {
+  padding-top: 120px;
+  margin: 0 auto; }
+  #hero a {
+    text-decoration: none;
+    transition: .4s;
+    padding: 10px 0;
+    width: 250px; }
+  #hero a:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05); }
+  #hero a,
+  #hero h1 {
+    text-transform: uppercase; }
+  #hero h1 {
+    width: 350px;
+    height: auto;
+    font-size: 65px;
+    line-height: 1.25;
+    font-weight: bold;
+    font-weight: 600;
+    letter-spacing: -2px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    color: #a6a6a6; }
+  #hero a {
+    margin-top: 40px;
+    display: inline-block;
+    background: black;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 20px 40px;
+    margin-bottom: 90px;
+    text-align: center; }
+  #hero .hero-img-holder img {
+    width: 560px;
+    margin-top: -20px; }
+  #hero .container-fluid {
+    background: yellow; }
+
+#value-props {
+  max-height: 720px; }
+  #value-props h2 {
+    position: absolute; }
+  #value-props .right-section h2 {
+    bottom: 50px;
+    font-size: 60px;
+    font-weight: bold; }
+  #value-props .col-sm-4,
+  #value-props .col-sm-8 {
+    padding: 30px 0; }
+  #value-props #img-a {
+    max-width: 80%;
+    padding-left: 0;
+    margin-left: 0; }
+  #value-props #img-c {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 90; }
+  #value-props #img-b {
+    height: auto;
+    max-width: 100%;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+#shop {
+  min-height: 720px;
+  position: relative; }
+  #shop .product-details-row {
+    margin-top: 120px;
+    width: 350px;
+    z-index: 120; }
+  #shop .ion-ios-arrow-left,
+  #shop .ion-ios-arrow-right {
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+  #shop .ion-ios-arrow-right {
+    background: blue; }
+  #shop #product-views-carousel {
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%; }
+    #shop #product-views-carousel .carousel-inner {
+      position: relative; }
+    #shop #product-views-carousel .carousel-controller-row {
+      background: red;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      height: 120px;
+      z-index: 20; }
+    #shop #product-views-carousel .carousel-indicators {
+      z-index: 30; }
+
+/*# sourceMappingURL=styles.css.map */
