@@ -1,5 +1,6 @@
 body {
-  width: 100%; }
+  width: 100%;
+  font-family: 'Open Sans', sans-serif; }
 
 #hero {
   padding-top: 120px;
@@ -87,12 +88,40 @@ body {
     background-position: center; }
 
 #shop {
+  background: #565f64;
   min-height: 720px;
-  position: relative; }
+  position: relative;
+  overflow-y: hidden; }
   #shop .product-details-row {
     margin-top: 120px;
     width: 350px;
     z-index: 120; }
+    #shop .product-details-row a {
+      color: white;
+      font-weight: 300;
+      letter-spacing: .5px;
+      font-size: 20px;
+      position: relative;
+      text-decoration: none; }
+    #shop .product-details-row a.active-tab:before {
+      display: block;
+      background: rgba(255, 255, 255, 0.5);
+      position: absolute;
+      top: 35px;
+      width: 110px;
+      height: 2px;
+      content: ''; }
+    #shop .product-details-row .add-to-cart-cta {
+      background: black;
+      display: block;
+      text-align: center;
+      padding: 15px 0;
+      color: white;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+      font-size: 25px; }
   #shop .ion-ios-arrow-left {
     left: 10%; }
   #shop .ion-ios-arrow-right {
@@ -101,13 +130,37 @@ body {
   #shop .ion-ios-arrow-right {
     font-size: 30px;
     position: absolute;
-    bottom: 20px; }
+    bottom: 20px;
+    color: white;
+    z-index: 200; }
+  #shop h2 {
+    color: white; }
+  #shop h6 {
+    font-weight: 300;
+    opacity: .6;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 35px; }
+  #shop .carousel-inner {
+    z-index: 20; }
+  #shop .item.active {
+    z-index: 10;
+    position: relative;
+    margin-top: 100px; }
+    #shop .item.active img {
+      z-index: 230; }
   #shop #product-views-carousel {
-    position: absolute;
     height: auto;
     bottom: 0;
     z-index: 10;
-    height: 100%; }
+    height: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    text-align: center; }
     #shop #product-views-carousel .carousel-inner {
       position: relative; }
     #shop #product-views-carousel .carousel-controller-row {
@@ -119,5 +172,12 @@ body {
       z-index: 20; }
     #shop #product-views-carousel .carousel-indicators {
       z-index: 30; }
+  #shop .separator {
+    display: block;
+    height: 1px;
+    width: 90%;
+    margin: 20px auto;
+    background: #f3f3f3;
+    opacity: .2; }
 
 /*# sourceMappingURL=styles.css.map */
