@@ -257,6 +257,7 @@ body {
 
 @include media("<desktop") {
   body {
+    overflow-x: hidden;
     #product-views-carousel {
       width: 800px;
     }
@@ -266,7 +267,6 @@ body {
     }
   }
 }
-
 @include media("<desktop", ">tablet") {
   body {
     #product-views-carousel {
@@ -278,6 +278,23 @@ body {
 }
 
 @include media("<tablet") {
+  #hero {
+    padding-top: 20px;
+    h1 {
+      margin: 0 auto;
+      margin-top: 30px;
+      font-size: 10vw;
+    }
+    a {
+      text-align: center;
+      display: block;
+      width: 350px;
+      margin: 30px auto 90px auto;
+    }
+      .hero-img-holder img {
+        width: 100%!important;
+      }
+  }
   #shop {
     #product-views-carousel {
       position: relative;
@@ -289,6 +306,10 @@ body {
     }
     .product-details-row {
       margin:0 auto;
+    }
+    .carousel-controller-row,
+    .carousel-indicators {
+      display: none;
     }
   }
 }
