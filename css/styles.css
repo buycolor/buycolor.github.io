@@ -201,11 +201,12 @@ body {
     #hero h1 {
       margin: 0 auto;
       margin-top: 30px;
-      font-size: 10vw; }
+      font-size: 10vw;
+      max-width: 90%; }
     #hero a {
       text-align: center;
       display: block;
-      width: 350px;
+      max-width: 350px;
       margin: 30px auto 90px auto; }
     #hero .hero-img-holder img {
       width: 100% !important; }
