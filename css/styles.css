@@ -88,7 +88,7 @@ body {
     background-position: center; }
 
 #shop {
-  background: #565f64;
+  background: #aaa;
   min-height: 720px;
   position: relative;
   overflow-y: hidden; }
@@ -143,10 +143,12 @@ body {
     margin-bottom: 35px; }
   #shop .carousel-inner {
     z-index: 20; }
+  #shop .item {
+    margin-top: 60px; }
   #shop .item.active {
     z-index: 10;
     position: relative;
-    margin-top: 100px; }
+    margin-top: 60px; }
     #shop .item.active img {
       z-index: 230; }
   #shop #product-views-carousel {

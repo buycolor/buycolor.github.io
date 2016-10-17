@@ -114,7 +114,7 @@ body {
     }
 }
 #shop {
-    background: rgba(86, 95, 100, 1);
+    background: #aaa;
     min-height: 720px;
     position: relative;
     overflow-y: hidden;
@@ -183,11 +183,14 @@ body {
     .carousel-inner {
       z-index: 20;
     }
+    .item{
+      margin-top: 60px;
+    }
     .item.active {
       // background: red;
       z-index: 10;
       position: relative;
-      margin-top: 100px;
+      margin-top: 60px;
       img {
         // position: absolute;
 
