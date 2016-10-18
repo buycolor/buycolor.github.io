@@ -59,8 +59,9 @@ body {
     }
 }
   #value-props {
-      max-height: 720px;
-      // overflow: hidden;
+      max-height: 800px;
+      overflow: hidden;
+      padding-bottom: 50px;
         .container-fluid {
           max-width: 1300px;
         }
@@ -251,6 +252,26 @@ body {
   }
 }
 
+
+footer#footer {
+  background: #fff;
+  padding: 40px 0 40px 0;
+  color: #353535;
+  // background: red;
+  p:first-child {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  a {
+    display: block;
+    margin: 10px 0;
+  }
+  i {
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 10px;
+  }
+}
 
 
 @import "include";

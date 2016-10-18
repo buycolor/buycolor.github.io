@@ -44,7 +44,9 @@ body {
     background: yellow; }
 
 #value-props {
-  max-height: 720px; }
+  max-height: 800px;
+  overflow: hidden;
+  padding-bottom: 50px; }
   #value-props .container-fluid {
     max-width: 1300px; }
   #value-props .left-section {
@@ -181,6 +183,21 @@ body {
     margin: 20px auto;
     background: #f3f3f3;
     opacity: .2; }
+
+footer#footer {
+  background: #fff;
+  padding: 40px 0 40px 0;
+  color: #353535; }
+  footer#footer p:first-child {
+    font-weight: 500;
+    font-size: 18px; }
+  footer#footer a {
+    display: block;
+    margin: 10px 0; }
+  footer#footer i {
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 10px; }
 
 @media (max-width: 1023px) {
   body {
