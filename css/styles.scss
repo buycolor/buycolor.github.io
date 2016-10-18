@@ -123,6 +123,7 @@ body {
     min-height: 720px;
     position: relative;
     overflow-y: hidden;
+    overflow-x: hidden;
     .product-details-row {
         margin-top: 120px;
         width: 350px;
@@ -251,8 +252,6 @@ body {
     opacity: .2;
   }
 }
-
-
 footer#footer {
   background: #fff;
   padding: 40px 0 40px 0;
@@ -261,6 +260,9 @@ footer#footer {
   p:first-child {
     font-weight: 500;
     font-size: 18px;
+  }
+  p.copyright {
+    font-size: 13px;
   }
   a {
     display: block;

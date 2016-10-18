@@ -93,7 +93,8 @@ body {
   background: #585858;
   min-height: 720px;
   position: relative;
-  overflow-y: hidden; }
+  overflow-y: hidden;
+  overflow-x: hidden; }
   #shop .product-details-row {
     margin-top: 120px;
     width: 350px;
@@ -191,6 +192,8 @@ footer#footer {
   footer#footer p:first-child {
     font-weight: 500;
     font-size: 18px; }
+  footer#footer p.copyright {
+    font-size: 13px; }
   footer#footer a {
     display: block;
     margin: 10px 0; }
