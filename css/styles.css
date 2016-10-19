@@ -10,7 +10,8 @@ nav a.text-right {
   top: 23px;
   font-weight: 400;
   letter-spacing: .25px;
-  right: 25px; }
+  right: 25px;
+  text-decoration: none; }
 
 #hero {
   padding-top: 120px;
