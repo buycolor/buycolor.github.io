@@ -2,9 +2,13 @@ body {
   width: 100%;
   font-family: 'Open Sans', sans-serif; }
 
+nav.navbar img {
+  width: 120px; }
+
 #hero {
   padding-top: 120px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow-x: hidden; }
   #hero a {
     text-decoration: none;
     transition: .4s;
@@ -42,6 +46,12 @@ body {
     margin-top: -20px; }
   #hero .container-fluid {
     background: yellow; }
+
+#three-row {
+  background: white;
+  padding: 120px 0; }
+  #three-row img {
+    opacity: .5; }
 
 #value-props {
   max-height: 800px;
@@ -188,7 +198,8 @@ body {
 footer#footer {
   background: #fff;
   padding: 40px 0 40px 0;
-  color: #353535; }
+  color: #353535;
+  opacity: .9; }
   footer#footer p:first-child {
     font-weight: 500;
     font-size: 18px; }

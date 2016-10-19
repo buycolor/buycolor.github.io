@@ -7,9 +7,13 @@ body {
     // background: red!important;
     font-family: 'Open Sans', sans-serif;
 }
+nav.navbar img {
+  width: 120px;
+}
 #hero {
     padding-top: 120px;
     margin: 0 auto;
+    overflow-x: hidden;
     // padding-bottom: 80px;
     // background: blue;
     // min-height: 800px;
@@ -58,6 +62,14 @@ body {
         background: yellow;
     }
 }
+  #three-row {
+    background: white;
+    padding: 120px 0;
+    img {
+      opacity: .5;
+    }
+  }
+
   #value-props {
       max-height: 800px;
       overflow: hidden;
@@ -256,6 +268,7 @@ footer#footer {
   background: #fff;
   padding: 40px 0 40px 0;
   color: #353535;
+  opacity: .9;
   // background: red;
   p:first-child {
     font-weight: 500;
