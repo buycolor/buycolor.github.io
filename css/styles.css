@@ -2,8 +2,15 @@ body {
   width: 100%;
   font-family: 'Open Sans', sans-serif; }
 
-nav.navbar img {
-  width: 120px; }
+nav .navbar-header img {
+  width: 120px;
+  margin-top: -5px; }
+nav a.text-right {
+  position: absolute;
+  top: 23px;
+  font-weight: 400;
+  letter-spacing: .25px;
+  right: 25px; }
 
 #hero {
   padding-top: 120px;
