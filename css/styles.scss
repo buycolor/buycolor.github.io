@@ -23,7 +23,7 @@ nav {
       }
   }
 #hero {
-    padding-top: 120px;
+    padding-top: 20px;
     margin: 0 auto;
     overflow-x: hidden;
     // padding-bottom: 80px;
@@ -70,8 +70,21 @@ nav {
       width: 560px;
       margin-top: -20px;
     }
-    .container-fluid {
-        background: yellow;
+     .item {
+      padding: 10px 0;
+      position: relative;
+      a {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: 20%;
+        min-width: 280px;
+      }
+      img {
+      // padding: 120px;
+      width: 100%;
+      }
     }
 }
   #three-row {
@@ -342,6 +355,12 @@ footer#footer {
     }
       .hero-img-holder img {
         width: 100%!important;
+      }
+      .item a {
+        // background: blue;
+        bottom: 13%;
+        font-size: 20px;
+
       }
   }
   #shop {

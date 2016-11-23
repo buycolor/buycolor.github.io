@@ -15,7 +15,7 @@ nav a.text-right {
   cursor: pointer; }
 
 #hero {
-  padding-top: 120px;
+  padding-top: 20px;
   margin: 0 auto;
   overflow-x: hidden; }
   #hero a {
@@ -53,8 +53,18 @@ nav a.text-right {
   #hero .hero-img-holder img {
     width: 560px;
     margin-top: -20px; }
-  #hero .container-fluid {
-    background: yellow; }
+  #hero .item {
+    padding: 10px 0;
+    position: relative; }
+    #hero .item a {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      bottom: 20%;
+      min-width: 280px; }
+    #hero .item img {
+      width: 100%; }
 
 #three-row {
   background: white;
@@ -250,6 +260,9 @@ footer#footer {
       margin: 30px auto 90px auto; }
     #hero .hero-img-holder img {
       width: 100% !important; }
+    #hero .item a {
+      bottom: 13%;
+      font-size: 20px; }
 
   #shop #product-views-carousel {
     position: relative;
