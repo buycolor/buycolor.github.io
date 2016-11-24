@@ -357,10 +357,11 @@ footer#footer {
         width: 100%!important;
       }
       .item a {
-        // background: blue;
+        background: blue!important;
         bottom: 13%;
         font-size: 20px;
-
+        width: 140px!important;
+        padding: 15px 10px;
       }
   }
   #shop {
