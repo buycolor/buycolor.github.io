@@ -357,10 +357,10 @@ footer#footer {
         width: 100%!important;
       }
       .item a {
-        background: blue!important;
         bottom: 13%;
         font-size: 20px;
-        width: 140px!important;
+        // max-width: 140px!important;
+        min-width: 80%;
         padding: 15px 10px;
       }
   }
