@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
-<body>
+<body id="shop-body">
   <nav>
     <div class="container text-center">
       <div class="row">
@@ -67,15 +67,16 @@
           <button class="quantity-button"> + </button>
 
           <div class="separator"></div>
+
           <div class="color-holder" style="position: relative;">
             <span class="color-header">Color:</span>
             <ul class="select-color-list">
-              <li class="active blue-color-button"></li>
-              <li class="green-color-button"></li>
-              <li class="black-color-button"></li>
-              <li class="orange-color-button"></li>
-              <li class="pink-color-button"></li>
-              <li class="yellow-color-button"></li>
+              <li id="blue" class="active blue-color-button"></li>
+              <li id="green" class="green-color-button"></li>
+              <li id="black" class="black-color-button"></li>
+              <li id="orange" class="orange-color-button"></li>
+              <li id="pink" class="pink-color-button"></li>
+              <li id="yellow" class="yellow-color-button"></li>
             </ul>
           </div>
 
@@ -84,14 +85,14 @@
           <a href="#" class="add-to-cart-cta">Add to Cart</a>
         </div>
 
-        <ol class="carousel-indicators">
+        <!-- <ol class="carousel-indicators">
           <li data-target="#product-views-carousel" data-slide-to="0" class="active"></li>
           <li data-target="#product-views-carousel" data-slide-to="1"></li>
           <li data-target="#product-views-carousel" data-slide-to="2"></li>
           <li data-target="#product-views-carousel" data-slide-to="3"></li>
           <li data-target="#product-views-carousel" data-slide-to="4"></li>
           <li data-target="#product-views-carousel" data-slide-to="5"></li>
-        </ol>
+        </ol> -->
         <div class="carousel-controller-row">
           <a class="left " href="#product-views-carousel" role="button" data-slide="prev">
             <span class="ion-ios-arrow-left" aria-hidden="true"></span>
@@ -135,7 +136,6 @@
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script> $('.carousel').carousel({ interval: 4000 })
-</script>
+<script type="text/javascript" src="js/buycolor.js"></script>
 
 </html>

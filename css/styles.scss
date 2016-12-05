@@ -224,27 +224,28 @@ nav {
                border-radius: 120px;
                cursor: pointer;
                margin: 5px 1px 0 1px;
-               &.active {
-                 border: 2px solid white!important;
-                 transform: scale(1.1);
-               }
+               transition: .4s;
+              //  &.active {
+              //    border: 2px solid white!important;
+              //    transform: scale(1.1);
+              //  }
                  &.blue-color-button {
-                   background: blue;
+                   background: #4997d2;
                  }
                  &.green-color-button {
-                   background: green;
+                   background: #65c0b7;
                  }
                  &.black-color-button {
                    background: black;
                  }
                  &.orange-color-button {
-                   background: orange;
+                   background: #f8bb18;
                  }
                  &.pink-color-button {
-                   background: pink;
+                   background: #ea6b8c;
                  }
                  &.yellow-color-button {
-                   background: yellow;
+                   background: #fcee00;
                  }
              }
           }
@@ -366,6 +367,8 @@ footer#footer {
 }
 
 
+
+
 @import "include";
 
 @include media("<desktop") {
@@ -433,4 +436,35 @@ footer#footer {
       display: none;
     }
   }
+}
+
+
+body#shop-body.blue li#blue {
+  transform: scale(1.2);
+  border: 1.5px solid rgba(255,255,255,1);
+}
+
+body#shop-body.green li#green {
+  transform: scale(1.2);
+  border: 1.5px solid rgba(255,255,255,1);
+}
+
+body#shop-body.black li#black {
+  transform: scale(1.2);
+  border: 1.5px solid rgba(255,255,255,1);
+}
+
+body#shop-body.orange li#orange {
+  transform: scale(1.2);
+  border: 1.5px solid rgba(255,255,255,1);
+}
+
+body#shop-body.pink li#pink {
+  transform: scale(1.2);
+  border: 1.5px solid rgba(255,255,255,1);
+}
+
+body#shop-body.yellow li#yellow {
+  transform: scale(1.2);
+  border: 1.5px solid rgba(255,255,255,1);
 }
