@@ -14,16 +14,14 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <div class="container" style="position: relative;">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">
-        <img alt="Brand" src="img/colorlogo.png">
-        </a>
+  <nav>
+    <div class="container text-center">
+      <div class="row">
+        <img class="brand-logo" alt="Brand" src="img/colorlogo.png">
       </div>
-      <a class="text-right" href="mailto:spencer@supplyr.co">Contact</a>
     </div>
   </nav>
+
   <section id="shop">
     <div class="container-full">
       <div class="row ">
@@ -52,17 +50,40 @@
           </div>
         </div>
         <div class=" col-sm-5 product-details-row">
-          <h2>Color Glass Screen Protector</h2>
+          <h2>Tempered Glass Screen Protection (with a touch of color)</h2>
           <h6>$35.00</h6>
-          <a class="active-tab" href="#">iPhone 6</a>
+          <div class="row">
+            <div class="col-xs-6">
+              <a class="active-tab" href="#">iPhone 6/6s/7</a>
+            </div>
+          </div>
           <br>
-          <br>
+
           <div class="separator"></div>
-          <a href="#">Color</a>
+
+          <span class="quantity-header">Quantity:</span>
+          <button class="quantity-button"> - </button>
+          <span class="quantity-number-selected">1</span>
+          <button class="quantity-button"> + </button>
+
+          <div class="separator"></div>
+          <div class="color-holder" style="position: relative;">
+            <span class="color-header">Color:</span>
+            <ul class="select-color-list">
+              <li class="active blue-color-button"></li>
+              <li class="green-color-button"></li>
+              <li class="black-color-button"></li>
+              <li class="orange-color-button"></li>
+              <li class="pink-color-button"></li>
+              <li class="yellow-color-button"></li>
+            </ul>
+          </div>
+
           <div class="separator"></div>
           <br>
           <a href="#" class="add-to-cart-cta">Add to Cart</a>
         </div>
+
         <ol class="carousel-indicators">
           <li data-target="#product-views-carousel" data-slide-to="0" class="active"></li>
           <li data-target="#product-views-carousel" data-slide-to="1"></li>
@@ -95,10 +116,11 @@
           <p>Navigate</p>
           <a href="index.html">Home</a>
           <a href="shop.html">Shop</a>
+          <a href="mailto:spencer@supplyr.co">Contact</a>
         </div>
         <div class="col-sm-3">
           <p>Products</p>
-          <a href="shop.html">iPhone 6 Case</a>
+          <a href="shop.html">iPhone 6/6s/7 Case</a>
         </div>
         <div class="col-sm-3">
           <p>Stay Updated</p>

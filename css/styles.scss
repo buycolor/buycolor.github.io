@@ -4,23 +4,14 @@
 
 body {
     width: 100%;
-    // background: red!important;
     font-family: 'Open Sans', sans-serif;
 }
 nav {
-    .navbar-header img {
-      width: 120px;
-      margin-top: -5px;
+  img.brand-logo {
+    width: 200px;
+    margin: 10px auto!important;
+    text-align: center;
     }
-    a.text-right {
-        position: absolute;
-        top: 23px;
-        font-weight: 400;
-        letter-spacing: .25px;
-        right:25px;
-        text-decoration: none;
-        cursor: pointer;
-      }
   }
 #hero {
     padding-top: 20px;
@@ -94,7 +85,6 @@ nav {
       opacity: .5;
     }
   }
-
   #value-props {
       max-height: 800px;
       overflow: hidden;
@@ -161,41 +151,103 @@ nav {
     position: relative;
     overflow-y: hidden;
     overflow-x: hidden;
+
     .product-details-row {
         margin-top: 120px;
         width: 350px;
         z-index: 120;
-
          a {
            color: white;
-           font-weight: 300;
+           font-weight: 400;
            letter-spacing: .5px;
            font-size: 20px;
            position: relative;
            text-decoration: none;
          }
-        a.active-tab:before {
+         a.active-tab:before {
            display: block;
            background: rgba(255,255,255,.5);
            position: absolute;
-          //  bottom:0;
+           left: 0;
+           right: 0;
            top:35px;
-           width: 110px;
+           width: 125px;
            height: 2px;
            content: '';
-         }
-      .add-to-cart-cta {
-        background:  black;
-        display: block;
-        text-align: center;
-        padding: 15px 0;
-        color: white;
-        font-weight: 500;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-bottom: 20px;
-        font-size: 25px;
-      }
+          }
+          .quantity-header,
+          .color-header {
+            color: white;
+            margin-right: 15px;
+            font-size: 20px;
+          }
+          .color-header {
+          }
+          .quantity-number-selected {
+            font-weight: 500;
+            color: white;
+            display: inline-block;
+            font-size: 22px;
+            margin: 0 7px;
+          }
+          .quantity-button {
+            border:0;
+            color: white;
+            font-size: 20px;
+            border-radius: 120px;
+            width: 35px;
+            background: rgba(255,255,255,.1);
+            border: 1px solid #fff;
+          }
+          .add-to-cart-cta {
+            background:  black;
+            display: block;
+            text-align: center;
+            padding: 15px 0;
+            color: white;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            font-size: 25px;
+          }
+          ul.select-color-list {
+            display: inline-block;
+            list-style-type: none;
+            position: absolute;
+            left: 18.5%;
+            top: -5px;
+             li {
+               display: inline-block;
+               width: 30px;
+               height: 30px;
+               border-radius: 120px;
+               cursor: pointer;
+               margin: 5px 1px 0 1px;
+               &.active {
+                 border: 2px solid white!important;
+                 transform: scale(1.1);
+               }
+                 &.blue-color-button {
+                   background: blue;
+                 }
+                 &.green-color-button {
+                   background: green;
+                 }
+                 &.black-color-button {
+                   background: black;
+                 }
+                 &.orange-color-button {
+                   background: orange;
+                 }
+                 &.pink-color-button {
+                   background: pink;
+                 }
+                 &.yellow-color-button {
+                   background: yellow;
+                 }
+             }
+          }
     }
     .ion-ios-arrow-left {
       left: 10%;
