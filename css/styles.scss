@@ -8,7 +8,7 @@ body {
 }
 nav {
   img.brand-logo {
-    width: 200px;
+    width: 130px;
     margin: 10px auto!important;
     text-align: center;
     }
@@ -146,18 +146,20 @@ nav {
     }
 }
 #shop {
-    background: #585858;
+    background: #fff;
     min-height: 720px;
     position: relative;
     overflow-y: hidden;
     overflow-x: hidden;
-
     .product-details-row {
         margin-top: 120px;
         width: 350px;
         z-index: 120;
+        background: white;
+border: 1px solid #fff;
+border-radius: 13px;
          a {
-           color: white;
+           color: black;
            font-weight: 400;
            letter-spacing: .5px;
            font-size: 20px;
@@ -166,7 +168,7 @@ nav {
          }
          a.active-tab:before {
            display: block;
-           background: rgba(255,255,255,.5);
+           background: rgba(0,0,0,.5);
            position: absolute;
            left: 0;
            right: 0;
@@ -177,7 +179,7 @@ nav {
           }
           .quantity-header,
           .color-header {
-            color: white;
+            color: black;
             margin-right: 15px;
             font-size: 20px;
           }
@@ -185,19 +187,19 @@ nav {
           }
           .quantity-number-selected {
             font-weight: 500;
-            color: white;
+            color: black;
             display: inline-block;
             font-size: 22px;
             margin: 0 7px;
           }
           .quantity-button {
             border:0;
-            color: white;
+            color: rgba(0,0,0,.9);
             font-size: 20px;
             border-radius: 120px;
             width: 35px;
-            background: rgba(255,255,255,.1);
-            border: 1px solid #fff;
+            background: rgba(0, 0, 0,.2);
+            border: 1px solid rgba(0,0,0, .5);
           }
           .add-to-cart-cta {
             background:  black;
@@ -211,12 +213,18 @@ nav {
             margin-bottom: 20px;
             font-size: 25px;
           }
-          ul.select-color-list {
+          ul.select-color-list-2 {
+            margin-bottom: -30px;
+            bottom: -20px;
+          }
+          ul.select-color-list,
+          ul.select-color-list-2   {
             display: inline-block;
             list-style-type: none;
             position: absolute;
             left: 18.5%;
-            top: -5px;
+            // top: -5px;
+
              li {
                display: inline-block;
                width: 30px;
@@ -229,24 +237,43 @@ nav {
               //    border: 2px solid white!important;
               //    transform: scale(1.1);
               //  }
-                 &.blue-color-button {
+                 &.cobalt-blue {
                    background: #4997d2;
                  }
-                 &.green-color-button {
+                 &.midnight-blue {
                    background: #65c0b7;
                  }
-                 &.black-color-button {
-                   background: black;
+                 &.blue-camo {
+                   background: #1e3d83;
                  }
-                 &.orange-color-button {
-                   background: #f8bb18;
-                 }
-                 &.pink-color-button {
+                 &.island-paradise {
                    background: #ea6b8c;
                  }
-                 &.yellow-color-button {
+                 &.seafoam-green {
+                   background: #65c0b7;
+                 }
+                 &.persian-pink {
+                   background: #ea6b8c;
+                 }
+                 &.barbie-pink {
+                   background: #b377b0;
+                 }
+                 &.flame-red {
+                   background: #e50011;
+                 }
+                 &.lemon-yellow {
                    background: #fcee00;
                  }
+                 &.marigold-orange {
+                   background: #f8bb18;
+                 }
+                 &.matte-black {
+                   background: #3c3a3b;
+                 }
+                 &.pale-dogwood {
+                   background: #ebd5e5;
+                 }
+
              }
           }
     }
@@ -267,20 +294,20 @@ nav {
     }
 
     h2 {
-      color: white;
+      color: black;
     }
     h6 {
       font-weight: 300;
-      opacity: .6;
+      opacity: .8;
       font-size: 25px;
-      color: white;
+      color: black;
       margin-bottom: 35px;
     }
     .carousel-inner {
       z-index: 20;
     }
     .item{
-      margin-top: 60px;
+      margin-top: 10px;
     }
     .item.active {
       // background: red;
@@ -312,6 +339,9 @@ nav {
       position: relative;
       .item.active {
         img {
+          margin-top: -80px;
+          // max-width: 650px;
+          // width: 100%;
           // height: 120px;
           // position: absolute;
           // bottom:0;
@@ -338,8 +368,8 @@ nav {
     height:1px;
     width: 90%;
     margin: 20px auto;
-    background: #f3f3f3;
-    opacity: .2;
+    background: #ccc;
+    opacity: 1;
   }
 }
 footer#footer {
@@ -379,7 +409,7 @@ footer#footer {
     }
     #shop .item.active,
     #shop .item {
-      margin-top: 70px;
+      margin-top: 20px;
     }
   }
 }
@@ -439,32 +469,62 @@ footer#footer {
 }
 
 
-body#shop-body.blue li#blue {
+body#shop-body.cobalt-blue li#cobalt-blue {
   transform: scale(1.2);
-  border: 1.5px solid rgba(255,255,255,1);
+  border: 1.5px solid rgba(0,0,0,.7);
 }
 
-body#shop-body.green li#green {
+body#shop-body.midnight-blue li#midnight-blue {
   transform: scale(1.2);
-  border: 1.5px solid rgba(255,255,255,1);
+  border: 1.5px solid rgba(0,0,0,.7);
 }
 
-body#shop-body.black li#black {
+body#shop-body.blue-camo li#blue-camo {
   transform: scale(1.2);
-  border: 1.5px solid rgba(255,255,255,1);
+  border: 1.5px solid rgba(0,0,0,.7);
 }
 
-body#shop-body.orange li#orange {
+body#shop-body.island-paradise li#island-paradise {
   transform: scale(1.2);
-  border: 1.5px solid rgba(255,255,255,1);
+  border: 1.5px solid rgba(0,0,0,.7);
 }
 
-body#shop-body.pink li#pink {
+body#shop-body.seafoam-green li#seafoam-green {
   transform: scale(1.2);
-  border: 1.5px solid rgba(255,255,255,1);
+  border: 1.5px solid rgba(0,0,0,.7);
 }
 
-body#shop-body.yellow li#yellow {
+body#shop-body.persian-pink li#persian-pink {
   transform: scale(1.2);
-  border: 1.5px solid rgba(255,255,255,1);
+  border: 1.5px solid rgba(0,0,0,.7);
+}
+
+body#shop-body.barbie-pink li#barbie-pink {
+  transform: scale(1.2);
+  border: 1.5px solid rgba(0,0,0,.7);
+}
+
+body#shop-body.flame-red li#flame-red {
+  transform: scale(1.2);
+  border: 1.5px solid rgba(0,0,0,.7);
+}
+
+body#shop-body.lemon-yellow li#lemon-yellow {
+  transform: scale(1.2);
+  border: 1.5px solid rgba(0,0,0,.7);
+}
+
+body#shop-body.marigold-orange li#marigold-orange {
+  transform: scale(1.2);
+  border: 1.5px solid rgba(0,0,0,.7);
+}
+
+body#shop-body.matte-black li#matte-black {
+  transform: scale(1.2);
+  border: 1.5px solid rgba(0,0,0,.7);
+}
+
+body#shop-body.pale-dogwood li#pale-dogwood {
+  transform: scale(1.2);
+  border: 1.5px solid rgba(0,0,0,.7);
 }

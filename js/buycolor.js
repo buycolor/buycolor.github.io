@@ -1,31 +1,61 @@
-$('.carousel').carousel({ interval: 4000 })
+$('.carousel').carousel({ interval: 200000 })
 
-$('#blue').click(function() {
+$('#cobalt-blue').click(function() {
   $('#shop-body').removeClass();
-  $('body').addClass("blue");
+  $('body').addClass('cobalt-blue');
 })
 
-$('#green').click(function() {
+$('#midnight-blue').click(function() {
   $('#shop-body').removeClass();
-  $('#shop-body').addClass("green");
+  $('#shop-body').addClass("midnight-blue");
 })
 
-$('#black').click(function() {
+$('#blue-camo').click(function() {
   $('#shop-body').removeClass();
-  $('#shop-body').addClass("black");
+  $('#shop-body').addClass("blue-camo");
 })
 
-$('#orange').click(function() {
+$('#island-paradise').click(function() {
   $('#shop-body').removeClass();
-  $('#shop-body').addClass("orange");
+  $('#shop-body').addClass("island-paradise");
 })
 
-$('#pink').click(function() {
+$('#persian-pink').click(function() {
   $('#shop-body').removeClass();
-  $('#shop-body').addClass("pink");
+  $('#shop-body').addClass("persian-pink");
 })
 
-$('#yellow').click(function() {
+$('#seafoam-green').click(function() {
   $('#shop-body').removeClass();
-  $('#shop-body').addClass("yellow");
+  $('#shop-body').addClass("seafoam-green");
+})
+
+$('#barbie-pink').click(function() {
+  $('#shop-body').removeClass();
+  $('#shop-body').addClass("barbie-pink");
+})
+
+$('#flame-red').click(function() {
+  $('#shop-body').removeClass();
+  $('#shop-body').addClass("flame-red");
+})
+
+$('#lemon-yellow').click(function() {
+  $('#shop-body').removeClass();
+  $('#shop-body').addClass("lemon-yellow");
+})
+
+$('#marigold-orange').click(function() {
+  $('#shop-body').removeClass();
+  $('#shop-body').addClass("marigold-orange");
+})
+
+$('#matte-black').click(function() {
+  $('#shop-body').removeClass();
+  $('#shop-body').addClass("matte-black");
+})
+
+$('#pale-dogwood').click(function() {
+  $('#shop-body').removeClass();
+  $('#shop-body').addClass("pale-dogwood");
 })
