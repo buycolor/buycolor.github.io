@@ -58,6 +58,18 @@ nav img.brand-logo {
       min-width: 280px; }
     #hero .item img {
       width: 100%; }
+  #hero .find-color-container {
+    position: relative; }
+    #hero .find-color-container h2 {
+      position: absolute;
+      top: 35%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      font-size: 55px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      text-align: center; }
 
 #three-row {
   background: white;
@@ -197,7 +209,8 @@ nav img.brand-logo {
           background: #65c0b7; }
         #shop .product-details-row ul.select-color-list li.blue-camo,
         #shop .product-details-row ul.select-color-list-2 li.blue-camo {
-          background: #1e3d83; }
+          background: url("../img/camo.png");
+          background-size: contain; }
         #shop .product-details-row ul.select-color-list li.island-paradise,
         #shop .product-details-row ul.select-color-list-2 li.island-paradise {
           background: #ea6b8c; }
@@ -250,8 +263,7 @@ nav img.brand-logo {
     margin-top: 10px; }
   #shop .item.active {
     z-index: 10;
-    position: relative;
-    margin-top: 60px; }
+    position: relative; }
     #shop .item.active img {
       z-index: 230; }
   #shop #product-views-carousel {
@@ -268,8 +280,6 @@ nav img.brand-logo {
     text-align: center; }
     #shop #product-views-carousel .carousel-inner {
       position: relative; }
-      #shop #product-views-carousel .carousel-inner .item.active img {
-        margin-top: -80px; }
     #shop #product-views-carousel .carousel-controller-row {
       background: red;
       position: absolute;
@@ -338,6 +348,10 @@ footer#footer {
       font-size: 20px;
       min-width: 80%;
       padding: 15px 10px; }
+    #hero .find-color-container {
+      position: relative; }
+      #hero .find-color-container h2 {
+        font-size: 7vw; }
 
   #shop #product-views-carousel {
     position: relative;
