@@ -166,13 +166,16 @@ nav {
     position: relative;
     overflow-y: hidden;
     overflow-x: hidden;
+    .shop-container {
+      margin-top: -80px;
+    }
     .product-details-row {
         margin-top: 120px;
         width: 350px;
         z-index: 120;
         background: white;
-border: 1px solid #fff;
-border-radius: 13px;
+        border: 1px solid #fff;
+        border-radius: 13px;
          a {
            color: black;
            font-weight: 400;
@@ -473,6 +476,9 @@ footer#footer {
         }
   }
   #shop {
+    .shop-container {
+      margin-top: -50px!important;
+    }
     #product-views-carousel {
       position: relative;
       width: 70%;

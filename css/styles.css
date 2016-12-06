@@ -129,6 +129,8 @@ nav img.brand-logo {
   position: relative;
   overflow-y: hidden;
   overflow-x: hidden; }
+  #shop .shop-container {
+    margin-top: -80px; }
   #shop .product-details-row {
     margin-top: 120px;
     width: 350px;
@@ -353,6 +355,8 @@ footer#footer {
       #hero .find-color-container h2 {
         font-size: 7vw; }
 
+  #shop .shop-container {
+    margin-top: -50px !important; }
   #shop #product-views-carousel {
     position: relative;
     width: 70%;
